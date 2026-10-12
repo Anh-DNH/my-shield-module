@@ -1,15 +1,15 @@
-if SHIELD_SOFTLECUSTOM_LEFT
+if SHIELD_SOFLECUSTOM_LEFT
 
     # Name must be less than 16 characters long!
     config ZMK_KEYBOARD_NAME
-        default "Softle Custom"
+        default "Sofle Custom"
 
     config ZMK_SPLIT_ROLE_CENTRAL
         default y
 
 endif
 
-if SHIELD_SOFTLECUSTOM_LEFT || SHIELD_SOFTLECUSTOM_RIGHT
+if SHIELD_SOFLECUSTOM_LEFT || SHIELD_SOFLECUSTOM_RIGHT
 
     config ZMK_SPLIT
         default y

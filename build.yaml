@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: softlecustom_l
+    shield: soflecustom_l
   - board: nice_nano_v2
-    shield: softlecustom_r
+    shield: soflecustom_r

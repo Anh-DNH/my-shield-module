@@ -1,9 +1,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    softlecustom-layout: softlecustom-layout {
+    soflecustom-layout: soflecustom-layout {
         compatible = "zmk,physical-layout";
-        display-name = "Softle Custom";
+        display-name = "Sofle Custom";
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0   37       0     0     0>
