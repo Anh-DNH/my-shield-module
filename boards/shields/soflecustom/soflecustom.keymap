@@ -5,7 +5,7 @@
  */
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 72   // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 200    // default: 10
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -44,7 +44,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "DEF Letter";
+            display-name = "Letter";
             bindings = <
 
                 // ------------------------------------------------------------------------------------------------------------
@@ -67,7 +67,7 @@
         };
 
         // default_layer {
-        //     display-name = "DEF ";
+        //     display-name = "Signs";
         //     bindings = <
 
         //         // ------------------------------------------------------------------------------------------------------------
