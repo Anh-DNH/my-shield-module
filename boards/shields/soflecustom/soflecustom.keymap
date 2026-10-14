@@ -33,10 +33,10 @@
     };
 
     behaviors {
-        rot_mmv: sensor_rotate_mkp {
+        rot_msc: sensor_rotate_msc {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
-            bindings = <&mmv>, <&mmv>;
+            bindings = <&msc>, <&msc>;
         };
     };
 
@@ -62,7 +62,7 @@
             >;
 
             sensor-bindings = <
-                &rot_mmv        SCRL_UP         SCRL_DOWN
+                &rot_msc        SCRL_UP         SCRL_DOWN
                 &inc_dec_kp     PG_UP           PG_DN
             >;
         };
