@@ -6,8 +6,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
-    - name: heinn-dev
-      url-base: https://github.com/heinn-dev
     - name: nuovotaka
       url-base: https://github.com/nuovotaka
   projects:
