@@ -10,8 +10,8 @@ manifest:
       url-base: https://github.com/nuovotaka
   projects:
     - name: zmk
-      # remote: zmkfirmware
-      remote: heinn-dev
+      remote: zmkfirmware
+      # remote: heinn-dev
       import: app/west.yml
     - name: zmk-analog-input-driver
       remote: badjeff
