@@ -51,7 +51,7 @@
 		compatible = "zmk,analog-input";
 		sampling-hz = <100>;
 		x-ch {
-			io-channels = <&adc 5>; // <--- see ain-map.png for nRF52840
+			io-channels = <&adc 7>; // <--- see ain-map.png for nRF52840
 			mv-mid = <1630>;
 			mv-min-max = <1600>;
 			mv-deadzone = <10>;
@@ -65,7 +65,7 @@
 		};
 
 		y-ch {
-			io-channels = <&adc 7>; // <--- see ain-map.png for nRF52840
+			io-channels = <&adc 5>; // <--- see ain-map.png for nRF52840
 			mv-mid = <1630>;
 			mv-min-max = <1600>;
 			mv-deadzone = <10>;
@@ -84,10 +84,10 @@
 	};
 
 	analog_input_listener {
+        compatible = "zmk,input-listener";
         status = "okay";
 		//input-processors = <&pointer_accel>;
 		input-processors = <&zip_xy_scaler 1 1>;
-        compatible = "zmk,input-listener";
         device = <&anin0>;
     };
 };
