@@ -10,7 +10,7 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <behaviors/input_gestures_accel.dtsi>
+//#include <behaviors/input_gestures_accel.dtsi>
 
 &kscan0 {
     col-gpios
@@ -85,7 +85,8 @@
 
 	analog_input_listener {
         status = "okay";
-		input-processors = <&pointer_accel>;
+		//input-processors = <&pointer_accel>;
+		input-processors = <&zip_xy_scaler 1 1>;
         compatible = "zmk,input-listener";
         device = <&anin0>;
     };
